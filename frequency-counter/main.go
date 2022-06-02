@@ -10,7 +10,7 @@ func main() {
 }
 
 func same(slice1, slice2 []int) bool {
-	//checking to see if the array length is the same
+	//checking to see if the slice length is the same
 	if len(slice1) != len(slice2) {
 		return false
 	}
