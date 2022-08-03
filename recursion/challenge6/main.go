@@ -14,6 +14,7 @@ func reverse(str string) string {
 	if len(str) <= 0 {
 		return str
 	}
+
 	newStr := strings.Split(str, "")
 	rvr := []string{}
 	var helper func(str1 []string) string
